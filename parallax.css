@@ -1,0 +1,98 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Changa:wght@300&family=Roboto:wght@700&family=Rubik+Doodle+Shadow&family=Rubik+Lines&family=Rubik+Scribble&family=Source+Code+Pro:wght@500&display=swap');
+
+
+.parallax {
+    /* The image used */
+    background-image: url("./image/prlback.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+padding-top: 200px;}
+
+
+.c {
+    /* The image used */
+    background-image: url("./image/prlday.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.c1 {
+    /* The image used */
+    background-image: url("./image/prlthan.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.div1{
+    height: 350px;
+    width: 100%;
+    margin-top: -45px;
+    opacity: .5;
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 130px;
+
+}
+
+.first{
+    color: bisque;
+    position: absolute;
+    left: 32%;
+    top: 27%;
+    font-size: 100px;
+    border: double red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: .5;
+    
+    
+}
+
+
+
+.first:hover{
+    color: blue;
+}
+
+.morning{
+    margin-top: -28%;
+    position: absolute;
+    margin-left: 27%;
+    color: rgba(231, 245, 36, 0.589);
+    font-size: 100px;
+    border: double red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    position: absolute;
+    margin-top: -39%;
+   left: 32%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: coral;
+   font-size: 100px;
+}
